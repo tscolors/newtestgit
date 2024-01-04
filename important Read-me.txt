@@ -13,3 +13,14 @@ bash
 Copy code
 git commit --allow-empty -m "Criando commit vazio para estabelecer um ponto em comum"
 Depois disso, você pode tentar novamente a operação de merge sem a necessidade da opção --allow-unrelated-histories.
+
+
+
+============ GIT COMMAND ==============================================================================================
+
+git init => esse comando e para iniciar um repostiório local 
+git status => para verificar os arquivos que foi incluido no controle de versão esse comando e muito usando no trabalho
+git add . => comando muito usado esse comando server para adicionar os arquivos no controle de versão 
+git commit -m "MSG" => esse comando adiciona no monitoramento os arquivos do softwer 
+git remote add origin + URL do repositório remoto 
+git push origin master => esse comando e para enviar os arquivos para o repositório remoto
